@@ -1,0 +1,100 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 20px;
+}
+.main_heading{
+  color: #4F46E5;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.info_text{
+  text-align: center;
+  color: #4B5563;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 24px;
+}
+.search{
+  background-color: #FFFFFF;
+  padding: 8px 16px;
+  width: 450px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  align-self: center;
+  height: 30px;
+  color: black;
+}
+/* .super_power_container{
+  display: block;
+  align-items: self-start;
+} */
+.super_power_item{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    flex: 1 1 50px;
+}
+.powers{
+  background-color: white;
+  color: #EDEDED;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 8px;
+  border-radius: 25px;
+}
+.power_heading{
+  color: #EDEDED;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.poke_type{
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px 0px 0px;
+  padding: 4px 8px;
+}
+.poke_type_container{
+  border-radius: 15px;
+  padding-bottom: 3px;
+  /* align-content: center; */
+  /* justify-items: auto; */
+  /* justify-self: center; */
+}
+.main_container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.card_container{
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  padding: 16px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 250px;
+}
+.card_container:hover{
+  height: 330px;
+}
+.poke_name{
+  color : #EDEDED;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px 0px 0px;
+}
+.poke_species{
+  color : #4B5563;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
